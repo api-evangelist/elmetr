@@ -1,8 +1,30 @@
 aid: elmetr
 name: ElMetr
-description: ElMetr is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ElMetr (المتر) is a Middle East legal-tech company providing online legal
+  consultation and guidance for companies, entrepreneurs, and individuals. The
+  platform combines licensed lawyers with modern technology to connect users
+  with qualified legal help, offering subscription legal packages that cover
+  company formation and registration, contract review, compliance, intellectual
+  property, and dispute resolution. Founded in Egypt and now operating in Saudi
+  Arabia, ElMetr aims to make legal work clear, fast, and fair so businesses can
+  move faster and reduce risk from first idea through expansion. ElMetr is a 500
+  Global (500 Startups) portfolio company. This company profile has been through
+  the API Evangelist enrichment pipeline; ElMetr does not currently publish a
+  public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/elmetr/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.elmetr.com/meta-img.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Legal
+- Legal Services
+- Legal Tech
+- Legal Consultation
+- Compliance
+- Startups
+- Saudi Arabia
+- Egypt
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,12 @@ maintainers:
 common:
 - type: Website
   url: https://elmetr.com
+- type: Pricing
+  url: https://www.elmetr.com/pricing
+- type: DomainSecurity
+  url: security/elmetr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
